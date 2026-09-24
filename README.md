@@ -1,4 +1,4 @@
-# Hi, I'm Almaz Toktassin 👋
+# Hi, I'm Almaz Toktassin 
 
 ## Backend Engineer · AI Systems · Solution Architecture
 
