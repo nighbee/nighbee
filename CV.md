@@ -1,6 +1,5 @@
 # Almaz Toktassin — Backend Engineer / AI-First Developer
 
-**Phone:** +7 706 711 9305  
 **Email:** [almaztok8@gmail.com](mailto:almaztok8@gmail.com)  
 **GitHub:** [github.com/nighbee](https://github.com/nighbee)  
 **LinkedIn:** [linkedin.com/in/almaz-toktasin](https://www.linkedin.com/in/almaz-toktassin-5405922a9/)  
