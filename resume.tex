@@ -1,0 +1,101 @@
+\documentclass[10pt,letterpaper]{article}
+
+% ATS-friendly: standard fonts, selectable text, no icons or columns
+\usepackage[margin=0.55in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{lmodern}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\urlstyle{same}
+
+\titleformat{\section}{\large\bfseries\uppercase}{}{0pt}{}[\vspace{-4pt}\titlerule]
+\titlespacing*{\section}{0pt}{7pt}{4pt}
+\setlist[itemize]{leftmargin=0.16in,itemsep=0pt,topsep=1pt,parsep=0pt,partopsep=0pt}
+\renewcommand\labelitemi{\textbullet}
+
+\newcommand{\resumeEntry}[4]{%
+  \textbf{#1} \hfill #2\\
+  \textit{#3} \hfill \textit{#4}\vspace{-2pt}
+}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE \textbf{Almaz Toktassin}}\\[2pt]
+  \textbf{Backend Engineer | AI Systems | Solution Architecture}\\[3pt]
+  Almaty, Kazakhstan $\;|\;$ +7 706 711 9305 $\;|\;$
+  \href{mailto:almaztok8@gmail.com}{almaztok8@gmail.com} $\;|\;$
+  \href{https://github.com/nighbee}{github.com/nighbee} $\;|\;$
+  \href{https://www.linkedin.com/in/almaz-toktasin/}{linkedin.com/in/almaz-toktasin}
+\end{center}
+
+\section{Summary}
+Backend Engineer and AI-first developer experienced in Go microservices, distributed systems, LLM-powered automation, and full-stack products. Skilled in translating business requirements into scalable architectures and delivering reliable systems with PostgreSQL, Redis, Kafka, Docker, CI/CD, observability, authentication, concurrency, and human-in-the-loop AI workflows. Currently a Service Solution Responsible at Huawei Kazakhstan.
+
+\section{Technical Skills}
+\textbf{Languages:} Go, SQL, Python, TypeScript, JavaScript, Kotlin, Java, C++, Bash\\
+\textbf{Backend:} Microservices, REST, gRPC, WebSockets, Clean/Layered Architecture, DDD fundamentals, JWT, RBAC, concurrency, idempotency, rate limiting\\
+\textbf{Data:} PostgreSQL, Redis, Kafka, PostGIS, MinIO/S3, schema design, migrations, query optimization\\
+\textbf{AI:} OpenAI, Gemini, Claude, GPT-OSS, LLM services, AI agents, RAG fundamentals, prompt engineering, human-in-the-loop workflows\\
+\textbf{DevOps:} Docker, Docker Compose, Google Cloud, Railway, GitHub Actions, Linux, Nginx, observability, monitoring, unit/integration testing
+
+\section{Experience}
+\resumeEntry{Service Solution Responsible}{Jul 2026 -- Present}{Huawei Kazakhstan}{Almaty, Kazakhstan}
+\begin{itemize}
+  \item Design telecom solution architectures and translate customer requirements into scalable technical solutions.
+\end{itemize}
+
+\resumeEntry{Technical Team Lead}{Jan 2026 -- Jun 2026}{BrightBund -- Social Fintech}{Remote, USA}
+\begin{itemize}
+  \item Led Go backend and Flutter engineers delivering a production mobile application to a 100--200 tester closed beta.
+  \item Architected microservices using Go, WebSockets, PostgreSQL, Redis, Kafka, Firebase, and S3/MinIO; applied atomic and idempotent transaction patterns.
+  \item Shipped anti-abuse and rate-limiting systems and established GitHub Actions CI/CD, code-review standards, documentation, and technical roadmap practices.
+\end{itemize}
+
+\resumeEntry{Backend Engineer -- AI Systems}{Jan 2026 -- Apr 2026}{QazCloud (AO Samruk-Kazyna)}{Almaty, Kazakhstan}
+\begin{itemize}
+  \item Built Go services for LLM-based ITSM ticket categorization using GPT-OSS 20B and configurable confidence thresholds.
+  \item Replaced forced-choice classification with human review; implemented thread-safe JSONL audit logging and a REST endpoint for failed-pipeline monitoring.
+\end{itemize}
+
+\resumeEntry{Full Stack Developer}{May 2025 -- Dec 2025}{Institute of Engineering and IT, KBTU}{Almaty, Kazakhstan}
+\begin{itemize}
+  \item Delivered a Go/Fiber and React platform for tracking student participation in ESG initiatives; designed PostgreSQL schemas with data-integrity constraints.
+\end{itemize}
+
+\resumeEntry{Lead Developer \& Co-Founder}{Sep 2025 -- Dec 2025}{RTTF -- Call Analyzer SaaS}{Remote}
+\begin{itemize}
+  \item Built an OpenAI-powered SaaS processing 100+ sales calls monthly and reduced manager review time from 30 minutes to 2 minutes per call; integrated Google Sheets and amoCRM.
+\end{itemize}
+
+\resumeEntry{Software Developer \& Founder}{Mar 2025 -- Jun 2025}{Careerly -- Job-Matching Platform}{Remote}
+\begin{itemize}
+  \item Built a platform parsing 100+ IT vacancies daily; achieved 85\% resume-to-vacancy matching accuracy with Gemini skill extraction and analysis. Top 30, Google Firebase Studio Championship Central Asia 2025.
+\end{itemize}
+
+\resumeEntry{Open Source Contributor}{Mar 2023 -- Aug 2023}{Amazon OpenSearch Contributor Initiative}{Remote}
+\begin{itemize}
+  \item Contributed five merged pull requests to Amazon OpenSearch, fixing bugs and improving distributed-system reliability.
+\end{itemize}
+
+\section{Selected Projects}
+\textbf{\href{https://github.com/nighbee/indrive}{indrive}} -- Go legislative-analysis platform detecting contradictions, duplicates, and obsolete legal provisions.\\
+\textbf{\href{https://github.com/nighbee/eventlyBackend}{eventlyBackend}} -- Go event and seat-booking backend with JWT, RBAC, Redis, SQL, and Docker Compose.\\
+\textbf{\href{https://github.com/nighbee/aimedia}{aimedia}} -- AI media system with API gateway, database, frontend, deployment configuration, and media worker.\\
+\textbf{\href{https://github.com/nighbee/sale1}{sale1}} -- TypeScript diploma project with AI services, Docker Compose, Nginx, monitoring, and protocols.\\
+\textbf{\href{https://github.com/nighbee/industrix}{industrix}} -- Multi-service Go/TypeScript system using Go workspaces, protobuf/Buf, infrastructure tooling, and Docker.
+
+\section{Education \& Languages}
+\textbf{Kazakh-British Technical University (KBTU)} -- Bachelor of Information Systems, expected Jul 2026\\
+\textbf{Ozyegin University} -- Erasmus+ Exchange, Computer Science, Jan 2025 -- Jun 2025\\
+\textbf{Languages:} Kazakh (native), Russian (native), English (B2 / Upper-Intermediate)
+
+\end{document}
