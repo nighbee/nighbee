@@ -1,48 +1,80 @@
-# Hi, I'm Almaz 👋
+# Hi, I'm Almaz Toktassin 👋
 
-## Full-Stack Developer | Go Backend | Python & AI | TypeScript | Android | DevOps
+## Backend Engineer · AI Systems · Solution Architecture
 
-I build practical software systems across backend, full-stack, data, AI, and mobile development. My strongest focus is backend engineering with **Go**, complemented by **Python**, **TypeScript**, **Kotlin**, databases, containerization, and Linux automation.
+I design and build production-oriented software systems with a focus on **Go backend engineering**, distributed services, and AI-powered automation. I also work across solution architecture, full-stack products, data systems, and DevOps practices.
 
-### What I work on
+Currently, I work as a **Service Solution Responsible at Huawei Kazakhstan**, translating customer and business requirements into scalable telecom solution architectures.
 
-- **Backend systems:** Go services, REST APIs, authentication, role-based access, caching, database-backed applications, and service-oriented architecture
-- **Full-stack products:** TypeScript applications with separate frontend and backend layers
-- **AI and data systems:** media-processing workflows, big-data pipelines, Airflow/Spark coursework, and analytical tools
-- **Developer infrastructure:** Docker Compose, Linux administration, Bash automation, SSH configuration, and deployment workflows
-- **Mobile development:** Kotlin and Android applications
-- **Computer science foundations:** algorithms, data structures, C++, Java OOP, and programming principles
+Previously, I led engineering at a social-fintech startup, built AI-enabled enterprise services, delivered university platforms, and founded software products focused on call analytics and job matching.
+
+## What I do
+
+- Design backend services and microservice architectures with Go
+- Build REST, gRPC, and WebSocket APIs
+- Develop secure systems with JWT, RBAC, idempotency, and rate limiting
+- Design PostgreSQL schemas and optimize database-backed workflows
+- Use Redis, Kafka, MinIO/S3, and Firebase in production-oriented systems
+- Integrate LLMs into reliable workflows with confidence thresholds and human review
+- Lead engineering teams, code reviews, sprint planning, and technical roadmaps
+- Automate delivery with Docker, GitHub Actions, Linux, and deployment tooling
+- Translate customer requirements into practical technical solutions
+
+## Professional experience
+
+- **Service Solution Responsible — Huawei Kazakhstan**
+  Architecture-level telecom solution design and technical requirements translation.
+- **Technical Team Lead — BrightBund**
+  Led Go backend and Flutter engineers delivering a social-fintech application to a 100–200 user closed beta.
+- **Backend Engineer — QazCloud / AO Samruk-Kazyna**
+  Built Go services for LLM-powered ITSM ticket categorization, audit logging, and pipeline monitoring.
+- **Full Stack Developer — Institute of Engineering and IT, KBTU**
+  Delivered a Go and React platform for tracking student participation in ESG initiatives.
+- **Lead Developer & Co-Founder — RTTF Call Analyzer SaaS**
+  Built an OpenAI-powered call-analysis workflow that reduced review time from approximately 30 minutes to 2 minutes per call.
+- **Software Developer & Founder — Careerly**
+  Built a vacancy and resume-matching platform processing 100+ IT vacancies daily with 85% matching accuracy.
+- **Open Source Contributor — Amazon OpenSearch Contributor Initiative**
+  Contributed five merged pull requests to a distributed search and analytics platform.
 
 ## Featured projects
 
-| Project | What it demonstrates |
+| Project | Focus |
 |---|---|
-| [indrive](https://github.com/nighbee/indrive) | Go-based legislative analysis platform for detecting semantic contradictions, duplicates, and obsolete legal provisions |
-| [eventlyBackend](https://github.com/nighbee/eventlyBackend) | Event management and seat-booking backend with JWT authentication, role-based access, Redis caching, SQL, and Docker |
-| [aimedia](https://github.com/nighbee/aimedia) | AI media system with API gateway, frontend, database, deployment configuration, and media worker components |
-| [sale1](https://github.com/nighbee/sale1) | Diploma project with TypeScript services, AI-service integration, Docker Compose, monitoring, Nginx, and protocol definitions |
-| [taskman](https://github.com/nighbee/taskman) | Full-stack task-management application with deployment documentation and containerized development setup |
-| [industrix](https://github.com/nighbee/industrix) | Multi-service system using Go workspaces, protobuf/Buf tooling, Docker Compose, infrastructure code, and a TypeScript frontend |
-| [beelinetask](https://github.com/nighbee/beelinetask) | Data-engineering task using Airflow DAGs, Spark jobs, producers, SQL, and Docker Compose |
+| [indrive](https://github.com/nighbee/indrive) | Go-based legislative analysis platform detecting semantic contradictions, duplicates, and obsolete legal provisions. |
+| [eventlyBackend](https://github.com/nighbee/eventlyBackend) | Go event-management and seat-booking backend with JWT, RBAC, Redis, SQL, and Docker Compose. |
+| [aimedia](https://github.com/nighbee/aimedia) | AI media system with an API gateway, database, frontend, deployment configuration, and media worker. |
+| [sale1](https://github.com/nighbee/sale1) | Diploma project with TypeScript services, AI integrations, Docker Compose, Nginx, monitoring, and protocols. |
+| [taskman](https://github.com/nighbee/taskman) | Full-stack task-management application with deployment documentation and containerized infrastructure. |
+| [industrix](https://github.com/nighbee/industrix) | Multi-service system using Go workspaces, protobuf/Buf, Docker Compose, infrastructure tooling, and TypeScript. |
+| [beelinetask](https://github.com/nighbee/beelinetask) | Data-engineering project using Airflow DAGs, Spark jobs, producers, SQL, and Docker Compose. |
 
 ## Technical skills
 
-**Languages:** Go, Python, TypeScript, JavaScript, Kotlin, Java, C++, Bash, SQL  
-**Backend:** REST APIs, authentication, JWT, RBAC, Redis, SQL databases, migrations, service architecture  
-**Frontend:** TypeScript, JavaScript, HTML, CSS, Angular, React-oriented full-stack workflows  
-**Data & AI:** Python data processing, Airflow, Spark, media-processing systems, analytical tooling  
-**Infrastructure:** Docker, Docker Compose, Linux, Bash automation, SSH, Nginx, Make, GitHub Actions  
-**Mobile:** Android, Kotlin, Gradle  
-**Foundations:** OOP, algorithms, data structures, testing, API documentation, Git/GitHub
+**Languages:** Go, SQL, Python, TypeScript, JavaScript, Kotlin, Java, C++, Bash  
+**Backend:** Microservices, REST, gRPC, WebSockets, Clean/Layered Architecture, DDD fundamentals, JWT, RBAC, concurrency, idempotency, rate limiting  
+**Data:** PostgreSQL, Redis, Kafka, PostGIS, MinIO/S3, schema design, migrations, query optimization  
+**AI:** OpenAI, Gemini, Claude, GPT-OSS, LLM-integrated services, AI agents, RAG fundamentals, prompt engineering, human-in-the-loop workflows  
+**Infrastructure:** Docker, Docker Compose, Google Cloud, Railway, GitHub Actions, Linux, Nginx, observability, monitoring  
+**Other:** React, Angular, Android/Kotlin, Gradle, algorithms, data structures, unit testing, integration testing
 
-## Education and learning
+## Education
 
-- KBTU coursework and projects in software engineering, algorithms, Java OOP, Go, web development, and systems administration
-- Practical hackathon and technical-assignment experience across backend, AI, data, and product development
+- **Kazakh-British Technical University** — Bachelor of Information Systems, expected July 2026
+- **Ozyegin University** — Erasmus+ exchange in Computer Science, January–June 2025
 
-## Contact
+## Languages
 
-- GitHub: [@nighbee](https://github.com/nighbee)
-- Portfolio/CV: [CV.md](./CV.md)
+- Kazakh — Native
+- Russian — Native
+- English — B2 / Upper-Intermediate
 
-> Open to backend, full-stack, Go, Python, and software engineering opportunities.
+## Explore more
+
+- 📄 [CV and portfolio](./CV.md)
+- 💼 [GitHub repositories](https://github.com/nighbee?tab=repositories)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/almaz-toktasin/)
+- ✉️ [Email](mailto:almaztok8@gmail.com)
+- 💬 [Telegram](https://t.me/ztktsn)
+
+> Open to backend engineering, Go, AI systems, software engineering, and solution architecture opportunities.
