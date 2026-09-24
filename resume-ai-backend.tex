@@ -1,0 +1,103 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[margin=0.55in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{lmodern}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\urlstyle{same}
+\titleformat{\section}{\large\bfseries\uppercase}{}{0pt}{}[\vspace{-4pt}\titlerule]
+\titlespacing*{\section}{0pt}{7pt}{4pt}
+\setlist[itemize]{leftmargin=0.16in,itemsep=0pt,topsep=1pt,parsep=0pt,partopsep=0pt}
+\renewcommand\labelitemi{\textbullet}
+
+\newcommand{\resumeEntry}[4]{%
+  \textbf{#1} \hfill #2\\
+  \textit{#3} \hfill \textit{#4}\vspace{-2pt}
+}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE \textbf{Almaz Toktassin}}\\[2pt]
+  \textbf{Backend Engineer | Go / AI Systems}\\[3pt]
+  Almaty, Kazakhstan $\;|\;$ +7 706 711 9305 $\;|\;$
+  \href{mailto:almaztoktasin7@gmail.com}{almaztoktasin7@gmail.com} $\;|\;$
+  \href{https://github.com/nighbee}{github.com/nighbee} $\;|\;$
+  \href{https://www.linkedin.com/in/almaz-toktasin/}{linkedin.com/in/almaz-toktasin}
+\end{center}
+
+\section{Summary}
+Backend Engineer specializing in Go services and AI-powered automation. Experienced in building LLM-integrated systems, human-in-the-loop workflows, audit logging, monitoring endpoints, and data-processing pipelines. Strong background in microservices, REST/gRPC APIs, PostgreSQL, Redis, Kafka, Docker, concurrency, external integrations, and production-oriented engineering. Open to remote, hybrid, and relocation opportunities in backend engineering, AI platforms, automation, and fintech.
+
+\section{Technical Skills}
+\textbf{Languages:} Go, Python, SQL, TypeScript, JavaScript, Bash\\
+\textbf{AI and LLM:} GPT-OSS 20B, OpenAI API, Gemini API, Claude, LLM-integrated services, AI agents, prompt engineering, RAG fundamentals, confidence thresholds, human-in-the-loop workflows\\
+\textbf{Backend:} Microservices, REST, gRPC, WebSockets, concurrency, goroutines, channels, JWT, RBAC, idempotency, rate limiting, external API integrations\\
+\textbf{Data and infrastructure:} PostgreSQL, Redis, Kafka, PostGIS, MinIO/S3, SQL schema design, migrations, Docker, Docker Compose, GitHub Actions, Linux, Google Cloud, Railway\\
+\textbf{Reliability:} Thread-safe logging, audit trails, monitoring endpoints, failed-pipeline metrics, unit testing, integration testing, CI/CD
+
+\section{Experience}
+\resumeEntry{Service Solution Responsible / Solutions Intern}{Jul 2026 -- Present}{Huawei Technologies Kazakhstan}{Almaty, Kazakhstan}
+\begin{itemize}
+  \item Participate in telecom solution design within the MSSD Software and Service team, translating technical requirements into solution proposals.
+  \item Develop experience in architecture-level analysis, technical documentation, and communication between business and engineering stakeholders.
+\end{itemize}
+
+\resumeEntry{Technical Team Lead}{Jan 2026 -- Jun 2026}{BrightBund -- Social Fintech}{Remote}
+\begin{itemize}
+  \item Led Go backend and Flutter engineers delivering a production social-fintech mobile application to a 100--200 tester closed beta.
+  \item Architected microservices using Go, WebSockets, PostgreSQL, Redis, Kafka, Firebase Auth/Messaging, and S3/MinIO.
+  \item Designed atomic and idempotent transaction flows for correctness under concurrent financial workloads, plus anti-abuse and rate-limiting protections.
+  \item Established GitHub Actions CI/CD, code review standards, technical documentation, repository governance, and a staged delivery roadmap.
+\end{itemize}
+
+\resumeEntry{Backend Engineer -- AI Systems}{Jan 2026 -- Apr 2026}{QazCloud (AO Samruk-Kazyna)}{Almaty, Kazakhstan}
+\begin{itemize}
+  \item Contributed to a production Go microservice automating enterprise ITSM ticket categorization with GPT-OSS 20B and configurable confidence thresholds.
+  \item Replaced forced-choice classification with a human-in-the-loop review workflow to reduce incorrect automatic routing and improve operator trust.
+  \item Built a thread-safe JSONL audit logger using Go concurrency primitives across parallel goroutines.
+  \item Added a \texttt{/stats/failed} REST endpoint for monitoring failed LLM pipeline operations.
+\end{itemize}
+
+\resumeEntry{Backend Developer}{Sep 2025 -- Dec 2025}{SalesAI -- RTTF Call Analyzer SaaS}{Remote}
+\begin{itemize}
+  \item Built a Call Analyzer SaaS using the OpenAI API to process 100+ sales calls per month and reduce review time from 30 minutes to 2 minutes per call.
+  \item Integrated Google Sheets and amoCRM APIs to automate data transfer and sales workflows.
+\end{itemize}
+
+\resumeEntry{Full Stack Developer}{May 2025 -- Dec 2025}{Institute of Engineering and IT, KBTU}{Almaty, Kazakhstan}
+\begin{itemize}
+  \item Built an ESG platform with Go/Fiber, PostgreSQL, and React for tracking participation of 100+ students in university events.
+  \item Automated manual tracking by 80\%, implemented JWT-based RBAC for 20+ events, and deployed the platform on Railway.
+\end{itemize}
+
+\resumeEntry{Backend Developer}{Mar 2025 -- Jun 2025}{Careerly.ai}{Remote}
+\begin{itemize}
+  \item Built an AI job-matching platform processing 100+ IT vacancies daily from Telegram using Gemini API skill extraction and analysis.
+  \item Achieved 85\% resume-to-vacancy matching accuracy and placed in the Top 30 of Google Firebase Studio Championship Central Asia 2025.
+\end{itemize}
+
+\resumeEntry{Open Source Contributor / Intern}{Mar 2023 -- Aug 2023}{Amazon OpenSearch Contributor Initiative}{Remote}
+\begin{itemize}
+  \item Contributed five merged pull requests to Amazon OpenSearch, fixing bugs and improving reliability in a distributed search and analytics engine.
+\end{itemize}
+
+\section{Selected AI and Backend Projects}
+\textbf{\href{https://github.com/nighbee/aimedia}{aimedia}} -- AI media system with API gateway, database, frontend, deployment configuration, and media worker components.\\
+\textbf{\href{https://github.com/nighbee/indrive}{indrive}} -- Go platform for semantic analysis of legal documents, including contradictions, duplicates, and obsolete provisions.\\
+\textbf{\href{https://github.com/nighbee/eventlyBackend}{eventlyBackend}} -- Go event and seat-booking backend with JWT, RBAC, Redis, SQL, and Docker Compose.\\
+\textbf{\href{https://github.com/nighbee/beelinetask}{beelinetask}} -- Python data-engineering project using Airflow DAGs, Spark jobs, SQL, producers, and Docker.
+
+\section{Education and Languages}
+\textbf{KBTU} -- Bachelor of Information Systems, 2026\\
+\textbf{Ozyegin University} -- Erasmus+ Exchange, Computer Science, Jan 2025 -- Jun 2025\\
+\textbf{Languages:} Kazakh (native), Russian (native), English (C1 / Advanced)
+
+\end{document}
