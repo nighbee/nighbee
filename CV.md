@@ -46,23 +46,24 @@ Experienced in leading cross-functional teams, translating business requirements
 - Built a thread-safe JSONL audit logger using Go concurrency primitives across parallel goroutines.
 - Exposed a `/stats/failed` REST endpoint for real-time monitoring of LLM pipeline failures and operational health.
 
-### Full Stack Developer — Institute of Engineering and IT, KBTU
-**May 2025 – Dec 2025 · Almaty, Kazakhstan**
-
-- Delivered a full-stack platform tracking student participation in ESG initiatives for a university gamified-engagement program.
-- Built a mobile-first React frontend for student and program workflows.
-- Architected a Go/Fiber backend using clean layered architecture for maintainability and testability.
-- Designed a PostgreSQL schema covering users, events, and participation workflows with data-integrity constraints.
-
-### Lead Developer & Co-Founder — RTTF Call Analyzer SaaS
+### Lead Developer & Co-Founder — SalesAI
 **Sep 2025 – Dec 2025 · Remote**
 
 - Built an end-to-end SaaS processing more than 100 sales calls per month using the OpenAI API for transcription analysis and summarization.
 - Reduced manager review time from approximately 30 minutes to 2 minutes per call.
 - Engineered bidirectional integrations with Google Sheets and amoCRM, eliminating manual sales-data transfer.
 
+
+### Full Stack Developer — Institute of Engineering and IT, KBTU
+**May 2025 – Sep 2025 · Almaty, Kazakhstan**
+
+- Delivered a full-stack platform tracking student participation in ESG initiatives for a university gamified-engagement program.
+- Built a mobile-first React frontend for student and program workflows.
+- Architected a Go/Fiber backend using clean layered architecture for maintainability and testability.
+- Designed a PostgreSQL schema covering users, events, and participation workflows with data-integrity constraints.
+
 ### Software Developer & Founder — Careerly
-**Mar 2025 – Jun 2025 · Remote · Job-matching platform**
+**Feb 2025 – May 2025 · Remote · Job-matching platform**
 
 - Created a job-matching platform that parsed more than 100 IT vacancies daily from Telegram channels.
 - Achieved 85% resume-to-vacancy matching accuracy using the Gemini API for skill extraction and analysis.
