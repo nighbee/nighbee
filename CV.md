@@ -1,8 +1,10 @@
 # Almaz Toktassin — Backend Engineer / AI-First Developer
 
+**Location:** Almaty, Kazakhstan  
+**Phone:** +7 706 711 9305  
 **Email:** [almaztok8@gmail.com](mailto:almaztok8@gmail.com)  
 **GitHub:** [github.com/nighbee](https://github.com/nighbee)  
-**LinkedIn:** [linkedin.com/in/almaz-toktasin](https://www.linkedin.com/in/almaz-toktassin-5405922a9/)  
+**LinkedIn:** [linkedin.com/in/almaz-toktassin-5405922a9](https://www.linkedin.com/in/almaz-toktassin-5405922a9/)  
 **Telegram:** [@ztktsn](https://t.me/ztktsn)
 
 ## Professional summary
@@ -13,23 +15,23 @@ Experienced in leading cross-functional teams, translating business requirements
 
 ## Technical skills
 
-**Languages:** Go, SQL, Python, TypeScript, JavaScript  
-**Backend & architecture:** Microservices, REST APIs, gRPC, WebSockets, Clean/Layered Architecture, DDD fundamentals, JWT, RBAC, concurrent programming with goroutines/channels/synchronization primitives  
-**Databases & messaging:** PostgreSQL, schema design, query optimization, Redis, Kafka, PostGIS, MinIO/S3  
+**Languages:** Go, SQL, Python, TypeScript, JavaScript, Bash  
+**Backend & architecture:** Microservices, REST APIs, gRPC, WebSockets, Clean/Layered Architecture, DDD fundamentals, JWT, OAuth2, RBAC, concurrent programming with goroutines/channels/synchronization primitives  
+**Databases & messaging:** PostgreSQL, schema design, query optimization, Redis, Kafka, MongoDB, PostGIS, MinIO/S3  
 **AI-first development:** OpenAI, Gemini, Claude, self-hosted GPT-OSS, LLM-integrated services, AI agent workflows, RAG fundamentals, prompt engineering, human-in-the-loop automation  
-**DevOps & quality:** Docker, Docker Compose, Google Cloud, Railway, GitHub Actions CI/CD, observability, monitoring endpoints, unit testing, integration testing  
+**DevOps & quality:** Docker, Docker Compose, Kubernetes, Google Cloud, Railway, GitHub Actions CI/CD, observability (Grafana, Loki, Prometheus), monitoring endpoints, unit testing, integration testing  
 **Additional:** Android/Kotlin, Java, C++, Bash, algorithms, data structures, Git/GitHub
 
 ## Experience
 
-### Service Solution Responsible (SSR) — Huawei Kazakhstan
-**Jul 2026 – Present · Almaty, Kazakhstan · On-site**
+### Solutions Responsible (SSR) — Huawei Technologies
+**Jul 2026 – Present · Almaty, Kazakhstan · On-site · MSSD / Software and Service team**
 
-- Own architecture-level design decisions for telecom solutions in the Kazakhstan market after completing Huawei training programs in telecom systems and solution design.
-- Act as the technical bridge between customer requirements and engineering teams, translating business needs into scalable solution architectures.
+- Participate in preparing telecom solutions for the Kazakhstan market; analyze technical requirements and contribute to solution design and architecture proposals.
+- Interact with technical and business teams on requirements decomposition.
 
 ### Technical Team Lead — BrightBund
-**Jan 2026 – Jun 2026 · Remote · Social fintech, USA**
+**Jan 2026 – Jul 2026 · Almaty · brightbund.app · Social fintech**
 
 - Led a cross-functional team of Go backend and Flutter engineers delivering a production social-fintech mobile application to a closed beta group of 100–200 testers.
 - Owned sprint planning, daily code reviews, release quality, and delivery coordination across the engineering team.
@@ -46,8 +48,8 @@ Experienced in leading cross-functional teams, translating business requirements
 - Built a thread-safe JSONL audit logger using Go concurrency primitives across parallel goroutines.
 - Exposed a `/stats/failed` REST endpoint for real-time monitoring of LLM pipeline failures and operational health.
 
-### Lead Developer & Co-Founder — SalesAI
-**Sep 2025 – Dec 2025 · Remote**
+### Backend Developer — SalesAI
+**Sep 2025 – Dec 2025 · Remote · Call Analyzer SaaS**
 
 - Built an end-to-end SaaS processing more than 100 sales calls per month using the OpenAI API for transcription analysis and summarization.
 - Reduced manager review time from approximately 30 minutes to 2 minutes per call.
@@ -60,9 +62,9 @@ Experienced in leading cross-functional teams, translating business requirements
 - Delivered a full-stack platform tracking student participation in ESG initiatives for a university gamified-engagement program.
 - Built a mobile-first React frontend for student and program workflows.
 - Architected a Go/Fiber backend using clean layered architecture for maintainability and testability.
-- Designed a PostgreSQL schema covering users, events, and participation workflows with data-integrity constraints.
+- Implemented JWT-based RBAC for 20+ events; deployed on Railway and Google Cloud. Reduced manual tracking by 80%.
 
-### Software Developer & Founder — Careerly
+### Backend Developer — Careerly.ai
 **Feb 2025 – May 2025 · Remote · Job-matching platform**
 
 - Created a job-matching platform that parsed more than 100 IT vacancies daily from Telegram channels.
@@ -124,19 +126,22 @@ A data-engineering project containing Airflow DAGs, Spark jobs, data producers, 
 
 ## Education
 
+### International Engineering and Technology University (MITU)
+**Master of Technical Sciences, 7M06101 Software Engineering · 2026 · Almaty, Kazakhstan**
+
 ### Kazakh-British Technical University (KBTU)
-**Bachelor of Information Systems · Expected Jul 2026 · Almaty, Kazakhstan**
+**Bachelor of Information Systems · 2026 · Almaty, Kazakhstan**
 
 Relevant coursework includes software engineering, algorithms and data structures, Go backend development, Java OOP, web development, Linux/DevOps, and systems administration.
 
 ### Ozyegin University — Erasmus+ Exchange
-**Computer Science · Jan 2025 – Jun 2025 · Istanbul, Turkey**
+**Computer Science · 1 semester, 2025 · Istanbul, Turkey**
 
 ## Languages
 
 - **Kazakh:** Native
-- **Russian:** Native
-- **English:** B2 Upper-Intermediate; fluent written technical communication
+- **Russian:** C2 — Proficiency
+- **English:** C1 — Advanced; fluent written technical communication
 
 ## Target roles
 
