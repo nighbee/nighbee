@@ -55,7 +55,7 @@ Previously, I led engineering at a social-fintech startup, built AI-enabled ente
 **Backend:** Microservices, REST, gRPC, WebSockets, Clean/Layered Architecture, DDD fundamentals, JWT, OAuth2, RBAC, concurrency, idempotency, rate limiting  
 **Data:** PostgreSQL, Redis, Kafka, MongoDB, PostGIS, MinIO/S3, schema design, migrations, query optimization  
 **AI:** OpenAI, Gemini, Claude, GPT-OSS, LLM-integrated services, AI agents, RAG fundamentals, prompt engineering, human-in-the-loop workflows  
-**Infrastructure:** Docker, Docker Compose, Kubernetes, Google Cloud, Railway, GitHub Actions, Linux, Nginx, observability (Grafana, Loki, Prometheus), monitoring  
+**Infrastructure:** Docker, Docker Compose, Kubernetes, Terraform, Ansible, Google Cloud, Railway, GitHub Actions, Linux, Nginx, observability (Grafana, Loki, Prometheus), monitoring  
 **Other:** React, Angular, Android/Kotlin, Gradle, algorithms, data structures, unit testing, integration testing
 
 ## Education

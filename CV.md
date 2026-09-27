@@ -19,7 +19,7 @@ Experienced in leading cross-functional teams, translating business requirements
 **Backend & architecture:** Microservices, REST APIs, gRPC, WebSockets, Clean/Layered Architecture, DDD fundamentals, JWT, OAuth2, RBAC, concurrent programming with goroutines/channels/synchronization primitives  
 **Databases & messaging:** PostgreSQL, schema design, query optimization, Redis, Kafka, MongoDB, PostGIS, MinIO/S3  
 **AI-first development:** OpenAI, Gemini, Claude, self-hosted GPT-OSS, LLM-integrated services, AI agent workflows, RAG fundamentals, prompt engineering, human-in-the-loop automation  
-**DevOps & quality:** Docker, Docker Compose, Kubernetes, Google Cloud, Railway, GitHub Actions CI/CD, observability (Grafana, Loki, Prometheus), monitoring endpoints, unit testing, integration testing  
+**DevOps & quality:** Docker, Docker Compose, Kubernetes, Terraform, Ansible, Google Cloud, Railway, GitHub Actions CI/CD, observability (Grafana, Loki, Prometheus), monitoring endpoints, unit testing, integration testing  
 **Additional:** Android/Kotlin, Java, C++, Bash, algorithms, data structures, Git/GitHub
 
 ## Experience
@@ -122,7 +122,7 @@ A data-engineering project containing Airflow DAGs, Spark jobs, data producers, 
 - [effectiveMobile-junior-go](https://github.com/nighbee/effectiveMobile-junior-go) — Go technical assignment with Docker, migrations, internal packages, and service-oriented organization.
 - [backtest-imc-prosperity-2023](https://github.com/nighbee/backtest-imc-prosperity-2023) — Python backtesting utilities and trading-strategy experiments.
 - [MovieGO](https://github.com/nighbee/MovieGO) — Kotlin Android movie-browsing application.
-- [LDOC_course_SIS](https://github.com/nighbee/LDOC_course_SIS) — Linux administration, Bash automation, SSH, permissions, Docker Compose, and cloud coursework.
+- [LDOC_course_SIS](https://github.com/nighbee/LDOC_course_SIS) — Infrastructure automation: 5-role Ansible playbooks (users/permissions, Docker services, scheduled tasks) with GitHub Actions deployment, plus Terraform GCE provisioning on GCP.
 
 ## Education
 
