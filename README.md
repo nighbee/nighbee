@@ -4,7 +4,7 @@
 
 I design and build production-oriented software systems with a focus on **Go backend engineering**, distributed services, and AI-powered automation. I also work across solution architecture, full-stack products, data systems, and DevOps practices.
 
-Currently, I work as a **Service Solution Responsible at Huawei Kazakhstan**, translating customer and business requirements into scalable telecom solution architectures.
+Currently, I work as a **Solutions Responsible at Huawei Technologies Kazakhstan** (MSSD / Software and Service team), preparing telecom solutions and translating customer requirements into solution designs.
 
 Previously, I led engineering at a social-fintech startup, built AI-enabled enterprise services, delivered university platforms, and founded software products focused on call analytics and job matching.
 
@@ -22,18 +22,18 @@ Previously, I led engineering at a social-fintech startup, built AI-enabled ente
 
 ## Professional experience
 
-- **Service Solution Responsible — Huawei Kazakhstan**
-  Architecture-level telecom solution design and technical requirements translation.
-- **Technical Team Lead — BrightBund**
+- **Solutions Responsible — Huawei Technologies** (Jul 2026 – Present)
+  Telecom solution design in MSSD / Software and Service; requirements analysis and solution architecture proposals.
+- **Technical Team Lead — BrightBund** (Jan 2026 – Jul 2026)
   Led Go backend and Flutter engineers delivering a social-fintech application to a 100–200 user closed beta.
-- **Backend Engineer — QazCloud / AO Samruk-Kazyna**
-  Built Go services for LLM-powered ITSM ticket categorization, audit logging, and pipeline monitoring.
-- **Full Stack Developer — Institute of Engineering and IT, KBTU**
-  Delivered a Go and React platform for tracking student participation in ESG initiatives.
-- **Lead Developer & Co-Founder — RTTF Call Analyzer SaaS**
-  Built an OpenAI-powered call-analysis workflow that reduced review time from approximately 30 minutes to 2 minutes per call.
-- **Software Developer & Founder — Careerly**
-  Built a vacancy and resume-matching platform processing 100+ IT vacancies daily with 85% matching accuracy.
+- **Backend Engineer — QazCloud / AO Samruk-Kazyna** (Jan 2026 – Apr 2026)
+  Built Go services for LLM-powered ITSM ticket categorization (GPT-OSS 20B), thread-safe audit logging, and pipeline monitoring.
+- **Backend Developer — SalesAI** (Sep 2025 – Dec 2025)
+  Built an OpenAI-powered call-analysis workflow processing 100+ calls/month; reduced review time from 30 minutes to 2 minutes per call.
+- **Full Stack Developer — Institute of Engineering and IT, KBTU** (May 2025 – Sep 2025)
+  Delivered a Go/Fiber + React ESG platform for 100+ students; JWT RBAC for 20+ events; deployed on Railway and Google Cloud.
+- **Backend Developer — Careerly.ai** (Feb 2025 – May 2025)
+  Built a vacancy and resume-matching platform processing 100+ IT vacancies daily with 85% matching accuracy; Top 30 Google Firebase Studio Championship Central Asia 2025.
 - **Open Source Contributor — Amazon OpenSearch Contributor Initiative**
   Contributed five merged pull requests to a distributed search and analytics platform.
 
@@ -51,29 +51,30 @@ Previously, I led engineering at a social-fintech startup, built AI-enabled ente
 
 ## Technical skills
 
-**Languages:** Go, SQL, Python, TypeScript, JavaScript, Kotlin, Java, C++, Bash  
-**Backend:** Microservices, REST, gRPC, WebSockets, Clean/Layered Architecture, DDD fundamentals, JWT, RBAC, concurrency, idempotency, rate limiting  
-**Data:** PostgreSQL, Redis, Kafka, PostGIS, MinIO/S3, schema design, migrations, query optimization  
+**Languages:** Go, SQL, Python, TypeScript, JavaScript, Bash  
+**Backend:** Microservices, REST, gRPC, WebSockets, Clean/Layered Architecture, DDD fundamentals, JWT, OAuth2, RBAC, concurrency, idempotency, rate limiting  
+**Data:** PostgreSQL, Redis, Kafka, MongoDB, PostGIS, MinIO/S3, schema design, migrations, query optimization  
 **AI:** OpenAI, Gemini, Claude, GPT-OSS, LLM-integrated services, AI agents, RAG fundamentals, prompt engineering, human-in-the-loop workflows  
-**Infrastructure:** Docker, Docker Compose, Google Cloud, Railway, GitHub Actions, Linux, Nginx, observability, monitoring  
+**Infrastructure:** Docker, Docker Compose, Kubernetes, Google Cloud, Railway, GitHub Actions, Linux, Nginx, observability (Grafana, Loki, Prometheus), monitoring  
 **Other:** React, Angular, Android/Kotlin, Gradle, algorithms, data structures, unit testing, integration testing
 
 ## Education
 
-- **Kazakh-British Technical University** — Bachelor of Information Systems, expected July 2026
-- **Ozyegin University** — Erasmus+ exchange in Computer Science, January–June 2025
+- **International Engineering and Technology University (MITU)** — Master of Technical Sciences, 7M06101 Software Engineering, 2026
+- **Kazakh-British Technical University** — Bachelor of Information Systems, 2026
+- **Ozyegin University** — Erasmus+ exchange in Computer Science, 1 semester 2025
 
 ## Languages
 
 - Kazakh — Native
-- Russian — Native
-- English — B2 / Upper-Intermediate
+- Russian — C2 / Proficiency
+- English — C1 / Advanced
 
 ## Explore more
 
 - 📄 [CV and portfolio](./CV.md)
 - 💼 [GitHub repositories](https://github.com/nighbee?tab=repositories)
-- 🔗 [LinkedIn](https://www.linkedin.com/in/almaz-toktasin/)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/almaz-toktassin-5405922a9/)
 - ✉️ [Email](mailto:almaztok8@gmail.com)
 - 💬 [Telegram](https://t.me/ztktsn)
 
