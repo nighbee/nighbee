@@ -44,7 +44,6 @@ English C1 · Russian C2 · Kazakh native — open to hybrid work from Kazakhsta
 | [sale1](https://github.com/nighbee/sale1) | Diploma call-analyzer SaaS: Go API orchestrator + Python AI workers + TS automation over gRPC/Redis Streams, observability, PDF/Excel reporting. |
 | [Go-blockchain](https://github.com/nighbee/Go-blockchain) | Blockchain implementation in Go — consensus/ledger mechanics from first principles. |
 | [rbk_go](https://github.com/nighbee/rbk_go) | Pure-Go backend with chat — goroutines/channels concurrency practice. |
-| [effectiveMobile-junior-go](https://github.com/nighbee/effectiveMobile-junior-go) | Completed junior Go assessment task (Dockerized). |
 | [GOcourse](https://github.com/nighbee/GOcourse) | Go coursework: language fundamentals through concurrent programs. |
 | [indrive](https://github.com/nighbee/indrive) | Go legislative-analysis platform: semantic contradiction/duplicate detection over the national legal corpus. |
 | [industrix](https://github.com/nighbee/industrix) | Multi-service Go workspaces system: protobuf/Buf contracts, Docker Compose, infra tooling. |
