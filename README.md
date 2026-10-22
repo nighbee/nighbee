@@ -43,7 +43,6 @@ English C1 · Russian C2 · Kazakh native — open to hybrid work from Kazakhsta
 | [eventlyBackend](https://github.com/nighbee/eventlyBackend) | Concurrency-safe Go event-booking backend (Fiber, GORM, PostgreSQL, Redis): JWT auth, RBAC, caching, unique-constraint anti-double-booking. |
 | [sale1](https://github.com/nighbee/sale1) | Diploma call-analyzer SaaS: Go API orchestrator + Python AI workers + TS automation over gRPC/Redis Streams, observability, PDF/Excel reporting. |
 | [Go-blockchain](https://github.com/nighbee/Go-blockchain) | Blockchain implementation in Go — consensus/ledger mechanics from first principles. |
-| [rbk_go](https://github.com/nighbee/rbk_go) | Pure-Go backend with chat — goroutines/channels concurrency practice. |
 | [GOcourse](https://github.com/nighbee/GOcourse) | Go coursework: language fundamentals through concurrent programs. |
 | [indrive](https://github.com/nighbee/indrive) | Go legislative-analysis platform: semantic contradiction/duplicate detection over the national legal corpus. |
 | [industrix](https://github.com/nighbee/industrix) | Multi-service Go workspaces system: protobuf/Buf contracts, Docker Compose, infra tooling. |
