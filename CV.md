@@ -1,155 +1,69 @@
-# Almaz Toktassin — Backend Engineer / AI-First Developer
+# Almaz Toktassin
 
-**Location:** Almaty, Kazakhstan  
-**Phone:** +7 706 711 9305  
-**Email:** [almaztok8@gmail.com](mailto:almaztok8@gmail.com)  
-**GitHub:** [github.com/nighbee](https://github.com/nighbee)  
-**LinkedIn:** [linkedin.com/in/almaz-toktassin-5405922a9](https://www.linkedin.com/in/almaz-toktassin-5405922a9/)  
-**Telegram:** [@ztktsn](https://t.me/ztktsn)
+**Go Backend Developer** · PostgreSQL, Kafka, Redis, gRPC
 
-## Professional summary
+Almaty, Kazakhstan · +7 706 711 9305 · [almaztok8@gmail.com](mailto:almaztok8@gmail.com) · [github.com/nighbee](https://github.com/nighbee) · [LinkedIn](https://www.linkedin.com/in/almaz-toktassin-5405922a9/) · [t.me/ztktsn](https://t.me/ztktsn)
 
-Backend Engineer and AI-first developer with experience designing Go microservices, full-stack products, telecom solutions, and LLM-powered automation. Strong in API and service architecture, concurrent programming, PostgreSQL, Redis, Kafka, Docker, CI/CD, and production-oriented engineering practices.
+*Available immediately · Office, hybrid or remote · Kazakh (native), Russian (C2), English (C1)*
 
-Experienced in leading cross-functional teams, translating business requirements into scalable technical solutions, and building human-in-the-loop AI workflows that improve operational reliability. Aspiring software architect focused on distributed systems, backend engineering, and intelligent products.
+PDF: [ToktassinAlmaz_Golang_CV.pdf](./ToktassinAlmaz_Golang_CV.pdf)
 
-## Technical skills
+## Summary
 
-**Languages:** Go, SQL, Python, TypeScript, JavaScript, Bash  
-**Backend & architecture:** Microservices, REST APIs, gRPC, WebSockets, Clean/Layered Architecture, DDD fundamentals, JWT, OAuth2, RBAC, concurrent programming with goroutines/channels/synchronization primitives  
-**Databases & messaging:** PostgreSQL, schema design, query optimization, Redis, Kafka, MongoDB, PostGIS, MinIO/S3  
-**AI-first development:** OpenAI, Gemini, Claude, self-hosted GPT-OSS, LLM-integrated services, AI agent workflows, RAG fundamentals, prompt engineering, human-in-the-loop automation  
-**DevOps & quality:** Docker, Docker Compose, Kubernetes, Google Cloud, Railway, GitHub Actions CI/CD, observability (Grafana, Loki, Prometheus), monitoring endpoints, unit testing, integration testing  
-**Additional:** Android/Kotlin, Java, C++, Bash, algorithms, data structures, Git/GitHub
+Go backend developer with 1.5+ years of contract work shipping Go services to production: an EdTech LMS used by ~2,500 learners, a fintech app with a double-entry ledger (idempotency keys, optimistic locking, Kafka with retries) and an AI call-analysis SaaS. Also built a Go LLM service at QazCloud and interned at Huawei Kazakhstan. Looking for a Go team where I can own features end to end and keep growing.
+
+## Skills
+
+- **Go:** Gin, Fiber, GORM, goroutines, channels, context, sync, table-driven tests, layered architecture
+- **Backend:** REST, OpenAPI/Swagger, gRPC, WebSockets, JWT/RBAC, microservices, API gateway, idempotency, retries
+- **Data:** PostgreSQL (schema design, indexes, migrations, transactions), Redis (cache, Pub/Sub), Kafka, S3/MinIO
+- **DevOps:** Docker, Docker Compose, Nginx, Linux, GitHub Actions CI/CD, GCP, Prometheus/Grafana, unit and integration tests
+- **Also:** Python (FastAPI), TypeScript, Java (basics); OpenAI (GPT, Whisper, TTS), Gemini, self-hosted LLM (GPT-OSS)
 
 ## Experience
 
-### Solutions Responsible (SSR) — Huawei Technologies
-**Jul 2026 – Present · Almaty, Kazakhstan · On-site · MSSD / Software and Service team**
+### Backend Developer (Contract), independent contracts
+**Feb 2025 – Oct 2026 · Remote, Almaty**
+*Part-time contracts alongside university; some projects overlapped.*
 
-- Participate in preparing telecom solutions for the Kazakhstan market; analyze technical requirements and contribute to solution design and architecture proposals.
-- Interact with technical and business teams on requirements decomposition.
+**OneBilim Academy** (EdTech LMS, Jul – Oct 2026)
+- Owned backend and infrastructure in a 2-engineer team for an English-learning LMS in production: ~2,500 active learners, intakes of 400–800 per stream, up to ~2,000 voice-homework uploads a day.
+- Built Go services (Gin/GORM) with JWT/RBAC, an API gateway and PostgreSQL schema-per-service; added WebSocket chat over Redis, S3/MinIO uploads and OpenAI Whisper/GPT/TTS for homework checking.
+- Ran prod and staging (Docker Compose, Nginx) with backups and rollback; fixed gateway 502s under peak load.
 
-### Technical Team Lead — BrightBund
-**Jan 2026 – Jul 2026 · Almaty · brightbund.app · Social fintech**
+**BrightBund** (Technical Team Lead, social fintech, Jan – Jul 2026)
+- Coordinated up to 10 backend and Flutter developers through a closed beta of 100–200 testers: sprint planning, code review, release quality.
+- Built the Go backend (Fiber, PostgreSQL + PostGIS, Redis, Kafka, GCP): double-entry ledger with idempotency keys and optimistic locking, geo search, Kafka-based push notifications with retries, rate limiting, CI/CD.
 
-- Led a cross-functional team of Go backend and Flutter engineers delivering a production social-fintech mobile application to a closed beta group of 100–200 testers.
-- Owned sprint planning, daily code reviews, release quality, and delivery coordination across the engineering team.
-- Architected a microservices backend using Go, WebSockets, PostgreSQL, Redis, Kafka, Firebase Auth/Messaging, and S3/MinIO.
-- Designed for correctness under concurrent financial workloads using atomic operations and idempotency-safe patterns.
-- Designed and shipped anti-abuse and rate-limiting subsystems protecting core transaction flows in production.
-- Established GitHub Actions CI/CD, documentation conventions, repository governance, and a stage-based technical roadmap with weekly stakeholder demos.
+**SalesAI** (call-analysis SaaS, Sep – Dec 2025)
+- Built Go API and Python (FastAPI) AI pipeline for sales-call transcription and scoring (WhisperX + Gemini); cut review time per call from ~30 to 2 minutes; integrated telephony, amoCRM and Google Sheets.
 
-### Backend Engineer — QazCloud (AO Samruk-Kazyna)
-**Jan 2026 – Apr 2026 · Part-time · Almaty, Kazakhstan · AI systems**
+**Earlier:** ESG platform for KBTU (Go/Fiber + React, 100+ students, May – Sep 2025); Careerly.ai job matching with Gemini (Top 30 of 200+ teams, Google Firebase Studio Championship Central Asia 2025).
 
-- Contributed to `ai-glpi`, a production Go microservice that automates enterprise ITSM ticket categorization using GPT-OSS 20B and configurable confidence thresholds.
-- Replaced failure-prone forced-choice classification with a human-in-the-loop review workflow, reducing incorrect automatic assignments and improving operator trust.
-- Built a thread-safe JSONL audit logger using Go concurrency primitives across parallel goroutines.
-- Exposed a `/stats/failed` REST endpoint for real-time monitoring of LLM pipeline failures and operational health.
+### Service Solution Responsible (Intern), Huawei Kazakhstan
+**Jul 2026 – Oct 2026 · MSSD / Services & Software · Almaty (on-site)**
+- Point of contact for customers: turned requirements into technical solution proposals and architecture documents for core network and base station projects, using the Huawei configurator.
+- Checked customer contracts for compliant and non-compliant requirements together with technical and business teams.
 
-### Backend Developer — SalesAI
-**Sep 2025 – Dec 2025 · Remote · Call Analyzer SaaS**
+### Backend Engineer, AI Systems, QazCloud
+**Jan 2026 – Apr 2026 · Remote (part-time)**
+- Worked on ai-glpi, a Go service that sorts IT support tickets (GLPI) with a self-hosted LLM (GPT-OSS 20B).
+- Replaced forced auto-classification with human review below a configurable confidence threshold; added a thread-safe audit log and a `/stats/failed` endpoint to monitor pipeline failures.
 
-- Built an end-to-end SaaS processing more than 100 sales calls per month using the OpenAI API for transcription analysis and summarization.
-- Reduced manager review time from approximately 30 minutes to 2 minutes per call.
-- Engineered bidirectional integrations with Google Sheets and amoCRM, eliminating manual sales-data transfer.
-
-
-### Full Stack Developer — Institute of Engineering and IT, KBTU
-**May 2025 – Sep 2025 · Almaty, Kazakhstan**
-
-- Delivered a full-stack platform tracking student participation in ESG initiatives for a university gamified-engagement program.
-- Built a mobile-first React frontend for student and program workflows.
-- Architected a Go/Fiber backend using clean layered architecture for maintainability and testability.
-- Implemented JWT-based RBAC for 20+ events; deployed on Railway and Google Cloud. Reduced manual tracking by 80%.
-
-### Backend Developer — Careerly.ai
-**Feb 2025 – May 2025 · Remote · Job-matching platform**
-
-- Created a job-matching platform that parsed more than 100 IT vacancies daily from Telegram channels.
-- Achieved 85% resume-to-vacancy matching accuracy using the Gemini API for skill extraction and analysis.
-- Placed in the Top 30 at the Google Firebase Studio Championship Central Asia 2025.
-
-### Open Source Contributor — Amazon OpenSearch Contributor Initiative
+### Open Source Contributor (Intern), Amazon OpenSearch Contributor Initiative
 **Mar 2023 – Aug 2023 · Remote**
-
-- Contributed five merged pull requests to Amazon OpenSearch, a distributed search and analytics engine.
-- Fixed bugs and improved distributed-system reliability for production deployments used by organizations worldwide.
-
-## Selected projects
-
-### [indrive — Legislative Analysis Platform](https://github.com/nighbee/indrive)
-**Go · Docker · SQL · Workers · Frontend integration**
-
-A platform designed for the Republic of Kazakhstan that analyzes a national legal corpus and detects semantic contradictions, duplicate provisions, and obsolete content. The repository demonstrates Go backend organization, workers, migrations, data processing, Docker-based development, and frontend integration.
-
-### [eventlyBackend — Event Management and Seat Booking API](https://github.com/nighbee/eventlyBackend)
-**Go · JWT · RBAC · Redis · SQL · Docker Compose**
-
-A production-oriented backend for event management and seat booking with user/admin roles, secure JWT authentication, Redis caching, SQL initialization, and containerized local infrastructure.
-
-### [aimedia — AI Media System](https://github.com/nighbee/aimedia)
-**Python · API gateway · Database · Media worker · Docker**
-
-A hackathon AI media system organized into API gateway, frontend, database, deployment, and media-worker components. Demonstrates multi-component application design and media-processing workflows.
-
-### [sale1 — Diploma Project](https://github.com/nighbee/sale1)
-**TypeScript · AI services · Docker Compose · Nginx · Monitoring · Protocols**
-
-A multi-service diploma project with dedicated service, AI-service, monitoring, Nginx, protocol, and documentation areas. Includes local setup, implementation analysis, deployment configuration, and evaluation materials.
-
-### [taskman — Task Management Application](https://github.com/nighbee/taskman)
-**TypeScript · Full-stack architecture · Docker Compose · Deployment scripting**
-
-A task-management product structured with separate frontend and backend layers, deployment documentation, shell automation, and reproducible local infrastructure.
-
-### [industrix — Multi-Service System](https://github.com/nighbee/industrix)
-**Go · TypeScript · Protobuf/Buf · Docker Compose · Infrastructure**
-
-A multi-service system using Go workspaces, Buf/protobuf tooling, separate backend/frontend components, infrastructure configuration, scripts, and Docker Compose environments.
-
-### [beelinetask — Data Engineering Task](https://github.com/nighbee/beelinetask)
-**Python · Airflow · Spark · SQL · Docker Compose**
-
-A data-engineering project containing Airflow DAGs, Spark jobs, data producers, SQL schemas, and a Docker Compose environment for local execution.
-
-## Additional projects
-
-- [ESG](https://github.com/nighbee/ESG) — TypeScript campus platform with Go/backend work, React frontend, SQL schema/indexing, deployment tests, and database optimization.
-- [shai-call](https://github.com/nighbee/shai-call) — TypeScript hackathon frontend using Vite, Tailwind CSS, Supabase setup, and modern component organization.
-- [Go-blockchain](https://github.com/nighbee/Go-blockchain) — Educational blockchain implementation in Go with nodes, middleware, data structures, startup scripts, and a web-facing component.
-- [effectiveMobile-junior-go](https://github.com/nighbee/effectiveMobile-junior-go) — Go technical assignment with Docker, migrations, internal packages, and service-oriented organization.
-- [backtest-imc-prosperity-2023](https://github.com/nighbee/backtest-imc-prosperity-2023) — Python backtesting utilities and trading-strategy experiments.
-- [MovieGO](https://github.com/nighbee/MovieGO) — Kotlin Android movie-browsing application.
-- [LDOC_course_SIS](https://github.com/nighbee/LDOC_course_SIS) — Linux administration, Bash automation, SSH, permissions, Docker Compose, and cloud coursework.
+- 5 merged pull requests to OpenSearch (Java): bug fixes and tests, going through code review with maintainers.
 
 ## Education
 
-### International Engineering and Technology University (MITU)
-**Master of Technical Sciences, 7M06101 Software Engineering · 2026 · Almaty, Kazakhstan**
+- **MSc, Software Engineering** (in progress), International Engineering and Technological University · 2026 – 2028
+- **BSc, Information Systems**, Kazakh-British Technical University (KBTU), Almaty · 2022 – 2026
+- **Erasmus+ exchange, Computer Science**, Ozyegin University, Istanbul · Spring 2025
 
-### Kazakh-British Technical University (KBTU)
-**Bachelor of Information Systems · 2026 · Almaty, Kazakhstan**
+## Projects
 
-Relevant coursework includes software engineering, algorithms and data structures, Go backend development, Java OOP, web development, Linux/DevOps, and systems administration.
-
-### Ozyegin University — Erasmus+ Exchange
-**Computer Science · 1 semester, 2025 · Istanbul, Turkey**
-
-## Languages
-
-- **Kazakh:** Native
-- **Russian:** C2 — Proficiency
-- **English:** C1 — Advanced; fluent written technical communication
-
-## Target roles
-
-- Backend Engineer / Go Backend Engineer
-- Software Engineer
-- AI Systems Engineer
-- Full-Stack Developer
-- Software Engineering Intern
-- Software Architect track
-
-> This portfolio is based on the CV information supplied by Almaz Toktassin and the public GitHub projects in the `nighbee` account. Verify company permissions, employment dates, metrics, and project confidentiality before publishing externally.
+- [social-fintech](https://github.com/nighbee/social-fintech): BrightBund Go backend (ledger, idempotency, Kafka)
+- [sale1](https://github.com/nighbee/sale1): SalesAI call analyzer (Go API + Python AI pipeline)
+- [eventlyBackend](https://github.com/nighbee/eventlyBackend): Go event and seat-booking backend (Fiber, GORM, PostgreSQL, Redis, JWT/RBAC)
+- [Go-blockchain](https://github.com/nighbee/Go-blockchain): blockchain basics in Go
+- [GOcourse](https://github.com/nighbee/GOcourse): Go coursework

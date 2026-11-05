@@ -1,15 +1,16 @@
-\documentclass[10pt,letterpaper]{article}
+\documentclass[10pt,a4paper]{article}
 
+% Main Go backend CV. Same content as ToktassinAlmaz_Golang_CV.pdf.
 % ATS-friendly: standard fonts, selectable text, no icons or columns
 \usepackage[margin=0.55in]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage{lmodern}
+\usepackage{cmap}
 \usepackage[hidelinks]{hyperref}
 \usepackage{enumitem}
 \usepackage{titlesec}
-\usepackage{xcolor}
 
 \pagestyle{empty}
 \setlength{\parindent}{0pt}
@@ -30,73 +31,67 @@
 
 \begin{center}
   {\LARGE \textbf{Almaz Toktassin}}\\[2pt]
-  \textbf{Backend Engineer | AI Systems | Solution Architecture}\\[3pt]
+  Go Backend Developer $|$ PostgreSQL, Kafka, Redis, gRPC\\[3pt]
   Almaty, Kazakhstan $\;|\;$ +7 706 711 9305 $\;|\;$
   \href{mailto:almaztok8@gmail.com}{almaztok8@gmail.com} $\;|\;$
   \href{https://github.com/nighbee}{github.com/nighbee} $\;|\;$
-  \href{https://www.linkedin.com/in/almaz-toktassin-5405922a9/}{linkedin.com/in/almaz-toktassin-5405922a9}
+  \href{https://www.linkedin.com/in/almaz-toktassin-5405922a9/}{LinkedIn} $\;|\;$
+  \href{https://t.me/ztktsn}{t.me/ztktsn}\\
+  \textit{Available immediately $|$ Office, hybrid or remote $|$ Kazakh (native), Russian (C2), English (C1)}
 \end{center}
 
 \section{Summary}
-Backend Engineer and AI-first developer experienced in Go microservices, distributed systems, LLM-powered automation, and full-stack products. Skilled in translating business requirements into scalable architectures and delivering reliable systems with PostgreSQL, Redis, Kafka, Docker, CI/CD, observability, authentication, concurrency, and human-in-the-loop AI workflows. Currently a Solutions Responsible at Huawei Technologies Kazakhstan.
+Go backend developer with 1.5+ years of contract work shipping Go services to production: an EdTech LMS used by $\sim$2,500 learners, a fintech app with a double-entry ledger (idempotency keys, optimistic locking, Kafka with retries) and an AI call-analysis SaaS. Also built a Go LLM service at QazCloud and interned at Huawei Kazakhstan. Looking for a Go team where I can own features end to end and keep growing.
 
-\section{Technical Skills}
-\textbf{Languages:} Go, SQL, Python, TypeScript, JavaScript, Bash\\
-\textbf{Backend:} Microservices, REST, gRPC, WebSockets, Clean/Layered Architecture, DDD fundamentals, JWT, OAuth2, RBAC, concurrency, idempotency, rate limiting\\
-\textbf{Data:} PostgreSQL, Redis, Kafka, MongoDB, PostGIS, MinIO/S3, schema design, migrations, query optimization\\
-\textbf{AI:} OpenAI, Gemini, Claude, GPT-OSS, LLM services, AI agents, RAG fundamentals, prompt engineering, human-in-the-loop workflows\\
-\textbf{DevOps:} Docker, Docker Compose, Kubernetes, Google Cloud, Railway, GitHub Actions, Linux, Nginx, observability (Grafana, Loki, Prometheus), monitoring, unit/integration testing
+\section{Skills}
+\textbf{Go:} Gin, Fiber, GORM, goroutines, channels, context, sync, table-driven tests, layered architecture\\
+\textbf{Backend:} REST, OpenAPI/Swagger, gRPC, WebSockets, JWT/RBAC, microservices, API gateway, idempotency, retries\\
+\textbf{Data:} PostgreSQL (schema design, indexes, migrations, transactions), Redis (cache, Pub/Sub), Kafka, S3/MinIO\\
+\textbf{DevOps:} Docker, Docker Compose, Nginx, Linux, GitHub Actions CI/CD, GCP, Prometheus/Grafana, unit and integration tests\\
+\textbf{Also:} Python (FastAPI), TypeScript, Java (basics); OpenAI (GPT, Whisper, TTS), Gemini, self-hosted LLM (GPT-OSS)
 
 \section{Experience}
-\resumeEntry{Solutions Responsible}{Jul 2026 -- Present}{Huawei Technologies -- MSSD / Software and Service}{Almaty, Kazakhstan}
+\resumeEntry{Backend Developer (Contract)}{Feb 2025 -- Oct 2026}{Independent contracts}{Remote, Almaty}\\
+\textit{Part-time contracts alongside university; some projects overlapped.}
 \begin{itemize}
-  \item Participate in preparing telecom solutions for the Kazakhstan market; analyze requirements and contribute to solution design and architecture proposals.
+  \item \textbf{OneBilim Academy} (EdTech LMS, Jul -- Oct 2026)
+  \begin{itemize}
+    \item Owned backend and infrastructure in a 2-engineer team for an English-learning LMS in production: $\sim$2,500 active learners, intakes of 400--800 per stream, up to $\sim$2,000 voice-homework uploads a day.
+    \item Built Go services (Gin/GORM) with JWT/RBAC, an API gateway and PostgreSQL schema-per-service; added WebSocket chat over Redis, S3/MinIO uploads and OpenAI Whisper/GPT/TTS for homework checking.
+    \item Ran prod and staging (Docker Compose, Nginx) with backups and rollback; fixed gateway 502s under peak load.
+  \end{itemize}
+  \item \textbf{BrightBund} (Technical Team Lead, social fintech, Jan -- Jul 2026)
+  \begin{itemize}
+    \item Coordinated up to 10 backend and Flutter developers through a closed beta of 100--200 testers: sprint planning, code review, release quality.
+    \item Built the Go backend (Fiber, PostgreSQL + PostGIS, Redis, Kafka, GCP): double-entry ledger with idempotency keys and optimistic locking, geo search, Kafka-based push notifications with retries, rate limiting, CI/CD.
+  \end{itemize}
+  \item \textbf{SalesAI} (call-analysis SaaS, Sep -- Dec 2025)
+  \begin{itemize}
+    \item Built Go API and Python (FastAPI) AI pipeline for sales-call transcription and scoring (WhisperX + Gemini); cut review time per call from $\sim$30 to 2 minutes; integrated telephony, amoCRM and Google Sheets.
+  \end{itemize}
+  \item \textbf{Earlier:} ESG platform for KBTU (Go/Fiber + React, 100+ students, May -- Sep 2025); Careerly.ai job matching with Gemini (Top 30 of 200+ teams, Google Firebase Studio Championship Central Asia 2025).
 \end{itemize}
 
-\resumeEntry{Technical Team Lead}{Jan 2026 -- Jul 2026}{BrightBund -- Social Fintech (brightbund.app)}{Almaty}
+\resumeEntry{Service Solution Responsible (Intern)}{Jul 2026 -- Oct 2026}{Huawei Kazakhstan, MSSD / Services \& Software}{Almaty (on-site)}
 \begin{itemize}
-  \item Led Go backend and Flutter engineers delivering a production mobile application to a 100--200 tester closed beta.
-  \item Architected microservices using Go, WebSockets, PostgreSQL, Redis, Kafka, Firebase, and S3/MinIO; applied atomic and idempotent transaction patterns.
-  \item Shipped anti-abuse and rate-limiting systems and established GitHub Actions CI/CD, code-review standards, documentation, and technical roadmap practices.
+  \item Point of contact for customers: turned requirements into technical solution proposals and architecture documents for core network and base station projects, using the Huawei configurator.
+  \item Checked customer contracts for compliant and non-compliant requirements together with technical and business teams.
 \end{itemize}
 
-\resumeEntry{Backend Engineer -- AI Systems}{Jan 2026 -- Apr 2026}{QazCloud (AO Samruk-Kazyna)}{Almaty, Kazakhstan}
+\resumeEntry{Backend Engineer, AI Systems}{Jan 2026 -- Apr 2026}{QazCloud}{Remote (part-time)}
 \begin{itemize}
-  \item Built Go services for LLM-based ITSM ticket categorization using GPT-OSS 20B and configurable confidence thresholds.
-  \item Replaced forced-choice classification with human review; implemented thread-safe JSONL audit logging and a REST endpoint for failed-pipeline monitoring.
+  \item Worked on ai-glpi, a Go service that sorts IT support tickets (GLPI) with a self-hosted LLM (GPT-OSS 20B).
+  \item Replaced forced auto-classification with human review below a configurable confidence threshold; added a thread-safe audit log and a \texttt{/stats/failed} endpoint to monitor pipeline failures.
 \end{itemize}
 
-\resumeEntry{Full Stack Developer}{May 2025 -- Sep 2025}{Institute of Engineering and IT, KBTU}{Almaty, Kazakhstan}
+\resumeEntry{Open Source Contributor (Intern)}{Mar 2023 -- Aug 2023}{Amazon OpenSearch Contributor Initiative}{Remote}
 \begin{itemize}
-  \item Delivered a Go/Fiber and React ESG platform for 100+ students; implemented JWT-based RBAC for 20+ events and deployed on Railway and Google Cloud. Reduced manual tracking by 80\%.
+  \item 5 merged pull requests to OpenSearch (Java): bug fixes and tests, going through code review with maintainers.
 \end{itemize}
 
-\resumeEntry{Backend Developer}{Sep 2025 -- Dec 2025}{SalesAI -- Call Analyzer SaaS}{Remote}
-\begin{itemize}
-  \item Built an OpenAI-powered system, processing 100+ sales calls monthly and reduced manual manager review time from 30 minutes to 2 minutes per call; integrated Google Sheets and amoCRM.
-\end{itemize}
-
-\resumeEntry{Backend Developer}{Feb 2025 -- May 2025}{Careerly.ai -- Job-Matching Platform}{Remote}
-\begin{itemize}
-  \item Built a platform parsing 100+ IT vacancies daily; achieved 85\% resume-to-vacancy matching accuracy with Gemini skill extraction and analysis. Top 30, Google Firebase Studio Championship Central Asia 2025.
-\end{itemize}
-
-\resumeEntry{Intern}{Mar 2023 -- Aug 2023}{Amazon OpenSearch Contributor Initiative}{Remote}
-\begin{itemize}
-  \item Contributed five merged pull requests to Amazon OpenSearch, fixing bugs and improving distributed-system reliability.
-\end{itemize}
-
-\section{Selected Projects}
-\textbf{\href{https://github.com/nighbee/indrive}{indrive}} -- Go legislative-analysis platform detecting contradictions, duplicates, and obsolete legal provisions.\\
-\textbf{\href{https://github.com/nighbee/eventlyBackend}{eventlyBackend}} -- Go event and seat-booking backend with JWT, RBAC, Redis, SQL, and Docker Compose.\\
-\textbf{\href{https://github.com/nighbee/aimedia}{aimedia}} -- AI media system with API gateway, database, frontend, deployment configuration, and media worker.\\
-\textbf{\href{https://github.com/nighbee/sale1}{sale1}} -- TypeScript diploma project with AI services, Docker Compose, Nginx, monitoring, and protocols.\\
-\textbf{\href{https://github.com/nighbee/industrix}{industrix}} -- Multi-service Go/TypeScript system using Go workspaces, protobuf/Buf, infrastructure tooling, and Docker.
-
-\section{Education \& Languages}
-\textbf{International Engineering and Technology University (MITU)} -- Master of Technical Sciences, 7M06101 Software Engineering, 2026\\
-\textbf{Kazakh-British Technical University (KBTU)} -- Bachelor of Information Systems, 2026\\
-\textbf{Ozyegin University} -- Erasmus+ Exchange, Computer Science, 1 semester 2025\\
-\textbf{Languages:} Kazakh (native), Russian (C2 / Proficiency), English (C1 / Advanced)
+\section{Education}
+\textbf{MSc, Software Engineering} (in progress) -- International Engineering and Technological University \hfill 2026 -- 2028\\
+\textbf{BSc, Information Systems} -- Kazakh-British Technical University (KBTU), Almaty \hfill 2022 -- 2026\\
+\textbf{Erasmus+ exchange, Computer Science} -- Ozyegin University, Istanbul \hfill Spring 2025
 
 \end{document}
