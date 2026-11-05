@@ -1,77 +1,61 @@
-# Hi, I'm Almaz Toktassin — Go Backend Engineer
+# Hi, I'm Almaz Toktassin
 
-## Payments · Microservices (gRPC, Kafka, PostgreSQL)
+### Go Backend Developer · PostgreSQL, Kafka, Redis, gRPC
 
-Middle Go backend engineer in Almaty, focused on **payment platforms and transaction integrity**:
-**double-entry ledger, ACID transactions, idempotency keys, optimistic locking, anti-fraud charging**.
-Production Go microservices with **gRPC/Protobuf, Kafka and PostgreSQL**, event-driven flows,
-OpenTelemetry tracing, Prometheus/Grafana observability, Docker, Kubernetes (K3s) and GitHub Actions CI/CD.
-English C1 · Russian C2 · Kazakh native — open to hybrid work from Kazakhstan and remote worldwide.
+Go backend developer in Almaty with 1.5+ years of contract work shipping Go services to production: an EdTech LMS used by ~2,500 learners, a fintech app with a double-entry ledger (idempotency keys, optimistic locking, Kafka with retries) and an AI call-analysis SaaS. I also built a Go LLM service at QazCloud and interned at Huawei Kazakhstan.
 
-📄 **[CV — Go Backend (PDF)](./ToktassinAlmaz_GoBackend_CV.pdf)**
+Looking for a Go team where I can own features end to end and keep growing.
 
-## What I do
+**Available immediately** · office, hybrid or remote · Kazakh (native), Russian (C2), English (C1)
 
-- Design payment backends around an atomic ACID double-entry ledger (idempotency, optimistic locking)
-- Build Go microservices with gRPC/Protobuf, REST/OpenAPI, WebSockets and event-driven Kafka flows (DLQ, retries)
-- Design PostgreSQL schemas (indexing, migrations, pool budgeting) with Redis caching and Pub/Sub/Streams
-- Secure services with JWT/OAuth2/RBAC, rate limiting, fail2ban, TLS — plus anti-abuse/anti-fraud controls
-- Ship with Docker Compose, Nginx gateways, health/backup routines, staging-first deploys with rollback tags
-- Lead small engineering teams: planning, code reviews, release quality
+📄 **[CV (PDF, English)](./ToktassinAlmaz_Golang_CV.pdf)**
 
-## Professional experience
+## Experience
 
-- **Backend Developer (Contract), Independent — fintech payments** (Feb 2025 – Present, projects partially in parallel)
-  - **BrightBund, Technical Team Lead** (Jan – Jul 2026): production Go payments backend (Fiber, PostgreSQL 16 + PostGIS,
-    Redis, Kafka, MinIO on GCP) centered on an atomic ACID double-entry ledger with idempotency keys, optimistic locking
-    and upfront anti-fraud charging; led 10 backend/Flutter engineers through a 100–200 tester closed beta.
-  - **OneBilim Academy, backend/infra owner** (Jul 2026 – Present): Go microservices (Gin/GORM, 18 services, ~150 endpoints)
-    for ~2,500 learners and ~2,000 uploads/day; Postgres tuning, pool budgeting, fixed gateway TIME_WAIT/502 at peak.
-  - **SalesAI** (Sep – Dec 2025): polyglot microservices (Go/Fiber + Python/FastAPI + TS/Playwright) over gRPC and Redis
-    Streams; cut call-analysis time from 30 min to 2 min.
-  - **ESG platform, KBTU** (May – Sep 2025): Go/Fiber clean-layered backend, JWT RBAC for 20+ events; manual tracking down 80%.
-- **Backend Engineer (AI Systems) — QazCloud** (Jan – Apr 2026): production Go microservice for ITSM ticket
-  categorization; human-in-the-loop review with confidence thresholds; thread-safe audit logging + `/stats/failed` monitoring.
-- **Open Source Contributor — Amazon OpenSearch** (Mar – Aug 2023): 5 merged pull requests (Java) — bug fixes and
-  reliability in a distributed search engine.
+**Backend Developer (Contract)**, independent contracts · Feb 2025 – Oct 2026 · remote, Almaty
+<sub>Part-time contracts alongside university; some projects overlapped.</sub>
 
-## Featured projects
+- **OneBilim Academy** (EdTech LMS, Jul – Oct 2026)
+  Owned backend and infrastructure in a 2-engineer team: ~2,500 active learners, intakes of 400–800 per stream, up to ~2,000 voice-homework uploads a day. Go services (Gin/GORM) with JWT/RBAC, an API gateway and PostgreSQL schema-per-service; WebSocket chat over Redis, S3/MinIO uploads, OpenAI Whisper/GPT/TTS for homework checking. Ran prod and staging (Docker Compose, Nginx) with backups and rollback; fixed gateway 502s under peak load.
+- **BrightBund** (Technical Team Lead, social fintech, Jan – Jul 2026)
+  Coordinated up to 10 backend and Flutter developers through a closed beta of 100–200 testers. Built the Go backend (Fiber, PostgreSQL + PostGIS, Redis, Kafka, GCP): double-entry ledger with idempotency keys and optimistic locking, geo search, Kafka-based push notifications with retries, rate limiting, CI/CD.
+- **SalesAI** (call-analysis SaaS, Sep – Dec 2025)
+  Go API and Python (FastAPI) AI pipeline for sales-call transcription and scoring (WhisperX + Gemini); cut review time per call from ~30 to 2 minutes; integrated telephony, amoCRM and Google Sheets.
+- **Earlier:** ESG platform for KBTU (Go/Fiber + React, 100+ students, May – Sep 2025); Careerly.ai job matching with Gemini (Top 30 of 200+ teams, Google Firebase Studio Championship Central Asia 2025).
 
-| Project | Focus |
+**Service Solution Responsible (Intern)**, Huawei Kazakhstan, MSSD / Services & Software · Jul – Oct 2026 · Almaty
+Point of contact for customers: turned requirements into technical solution proposals and architecture documents for core network and base station projects; checked customer contracts for compliant and non-compliant requirements.
+
+**Backend Engineer, AI Systems**, QazCloud · Jan – Apr 2026 · remote, part-time
+ai-glpi, a Go service that sorts IT support tickets (GLPI) with a self-hosted LLM (GPT-OSS 20B). Replaced forced auto-classification with human review below a confidence threshold; added a thread-safe audit log and a `/stats/failed` endpoint to monitor pipeline failures.
+
+**Open Source Contributor (Intern)**, Amazon OpenSearch Contributor Initiative · Mar – Aug 2023 · remote
+5 merged pull requests to OpenSearch (Java): bug fixes and tests, through code review with maintainers.
+
+## Skills
+
+**Go:** Gin, Fiber, GORM, goroutines, channels, context, sync, table-driven tests, layered architecture
+**Backend:** REST, OpenAPI/Swagger, gRPC, WebSockets, JWT/RBAC, microservices, API gateway, idempotency, retries
+**Data:** PostgreSQL (schema design, indexes, migrations, transactions), Redis (cache, Pub/Sub), Kafka, S3/MinIO
+**DevOps:** Docker, Docker Compose, Nginx, Linux, GitHub Actions CI/CD, GCP, Prometheus/Grafana, unit and integration tests
+**Also:** Python (FastAPI), TypeScript, Java (basics); OpenAI (GPT, Whisper, TTS), Gemini, self-hosted LLM (GPT-OSS)
+
+## Projects
+
+| Project | What it is |
 |---|---|
-| [social-fintech](https://github.com/nighbee/social-fintech) | Contract fintech backend in Go (BrightBund): double-entry ledger, ACID transactions, Kafka fan-out, Docker/Nginx/fail2ban prod stack. |
-| [eventlyBackend](https://github.com/nighbee/eventlyBackend) | Concurrency-safe Go event-booking backend (Fiber, GORM, PostgreSQL, Redis): JWT auth, RBAC, caching, unique-constraint anti-double-booking. |
-| [sale1](https://github.com/nighbee/sale1) | Diploma call-analyzer SaaS: Go API orchestrator + Python AI workers + TS automation over gRPC/Redis Streams, observability, PDF/Excel reporting. |
-| [Go-blockchain](https://github.com/nighbee/Go-blockchain) | Blockchain implementation in Go — consensus/ledger mechanics from first principles. |
-| [GOcourse](https://github.com/nighbee/GOcourse) | Go coursework: language fundamentals through concurrent programs. |
-| [indrive](https://github.com/nighbee/indrive) | Go legislative-analysis platform: semantic contradiction/duplicate detection over the national legal corpus. |
-| [industrix](https://github.com/nighbee/industrix) | Multi-service Go workspaces system: protobuf/Buf contracts, Docker Compose, infra tooling. |
-
-## Technical skills
-
-**Languages:** Go (primary, Gin/Fiber), SQL, Python, TypeScript
-**Backend & Payments:** Microservices, REST, gRPC/Protobuf, OpenAPI/Swagger, event-driven architecture, JWT/OAuth2/RBAC,
-Clean/Layered Architecture, double-entry ledger, ACID, idempotency keys, optimistic locking, anti-fraud charging,
-concurrency (goroutines, channels, sync primitives)
-**Data & Messaging:** PostgreSQL (design, indexing, migrations, tuning, pool budgeting), Redis (caching, Pub/Sub, Streams),
-Kafka (fan-out, retries, DLQ), PostGIS, MinIO/S3
-**Infrastructure & Quality:** Docker, Docker Compose, Kubernetes (K3s, KEDA), Nginx, GCP, GitHub Actions CI/CD,
-Prometheus/Grafana, OpenTelemetry tracing, structured logging, health checks, unit/integration testing
-**Security:** bcrypt, TLS/HTTPS, rate limiting, anti-abuse, fail2ban, OWASP basics
-**Languages (spoken):** English (C1), Russian (C2), Kazakh (native)
+| [social-fintech](https://github.com/nighbee/social-fintech) | BrightBund Go backend: double-entry ledger, idempotency, optimistic locking, Kafka notifications with retries |
+| [sale1](https://github.com/nighbee/sale1) | SalesAI call analyzer: Go API + Python (FastAPI) AI pipeline, WhisperX + Gemini |
+| [eventlyBackend](https://github.com/nighbee/eventlyBackend) | Go event and seat-booking backend: Fiber, GORM, PostgreSQL, Redis, JWT/RBAC, Docker Compose |
+| [Go-blockchain](https://github.com/nighbee/Go-blockchain) | Blockchain basics in Go, written from scratch |
+| [GOcourse](https://github.com/nighbee/GOcourse) | Go coursework, from fundamentals to concurrency |
 
 ## Education
 
-- **International Engineering and Technological University (METU)** — MSc Software Engineering, 2026–2028
-- **Kazakh-British Technical University (KBTU)** — Bachelor of Information Systems, 2022–2026
-- **Ozyegin University (Erasmus+ Exchange)** — Computer Science, Istanbul, Jan–Jun 2025
+- **MSc, Software Engineering** (in progress), International Engineering and Technological University · 2026 – 2028
+- **BSc, Information Systems**, Kazakh-British Technical University (KBTU), Almaty · 2022 – 2026
+- **Erasmus+ exchange, Computer Science**, Ozyegin University, Istanbul · Spring 2025
 
-## Explore more
+## Contact
 
-- 📄 [CV — Go Backend (PDF)](./ToktassinAlmaz_GoBackend_CV.pdf)
-- 💼 [GitHub repositories](https://github.com/nighbee?tab=repositories)
-- 🔗 [LinkedIn](https://www.linkedin.com/in/almaz-toktassin-5405922a9/)
-- ✉️ [Email](mailto:almaztoktasin7@gmail.com)
-- 💬 [Telegram](https://t.me/ztktsn)
-
-> Open to Middle Go Backend roles — payments/fintech, microservices (gRPC, Kafka, PostgreSQL) — hybrid Almaty/Astana or remote.
+✉️ [almaztok8@gmail.com](mailto:almaztok8@gmail.com) · 💬 [t.me/ztktsn](https://t.me/ztktsn) · 🔗 [LinkedIn](https://www.linkedin.com/in/almaz-toktassin-5405922a9/) · 📞 +7 706 711 9305
