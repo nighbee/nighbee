@@ -58,4 +58,4 @@ ai-glpi, a Go service that sorts IT support tickets (GLPI) with a self-hosted LL
 
 ## Contact
 
-✉️ [almaztok8@gmail.com](mailto:almaztok8@gmail.com) · 💬 [t.me/ztktsn](https://t.me/ztktsn) · 🔗 [LinkedIn](https://www.linkedin.com/in/almaz-toktassin-5405922a9/) · 📞 +7 706 711 9305
+✉️ [almaztok8@gmail.com](mailto:almaztok8@gmail.com) · 💬 [t.me/ztktsn](https://t.me/ztktsn) · 🔗 [LinkedIn](https://www.linkedin.com/in/almaz-toktassin-5405922a9/) 
