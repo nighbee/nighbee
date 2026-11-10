@@ -50,9 +50,10 @@ Go backend developer with 1.5+ years of contract work shipping Go services to pr
 - Worked on ai-glpi, a Go service that sorts IT support tickets (GLPI) with a self-hosted LLM (GPT-OSS 20B).
 - Replaced forced auto-classification with human review below a configurable confidence threshold; added a thread-safe audit log and a `/stats/failed` endpoint to monitor pipeline failures.
 
-### Open Source Contributor (Intern), Amazon OpenSearch Contributor Initiative
+### Software Engineering Intern (Java), Amazon OpenSearch College Contributor Initiative
 **Mar 2023 – Aug 2023 · Remote**
-- 5 merged pull requests to OpenSearch (Java): bug fixes and tests, going through code review with maintainers.
+- Selected for a pilot program run by Amazon and Kazakhstan's Ministry of Science and Higher Education (100+ top students nationwide); worked on OpenSearch under the mentorship of Amazon engineers.
+- 5 pull requests merged into [OpenSearch](https://github.com/opensearch-project/OpenSearch) (Java): bug fixes and tests, reviewed by the project maintainers.
 
 ## Education
 

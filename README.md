@@ -29,8 +29,8 @@ Point of contact for customers: turned requirements into technical solution prop
 **Backend Engineer, AI Systems**, QazCloud · Jan – Apr 2026 · remote, part-time
 ai-glpi, a Go service that sorts IT support tickets (GLPI) with a self-hosted LLM (GPT-OSS 20B). Replaced forced auto-classification with human review below a confidence threshold; added a thread-safe audit log and a `/stats/failed` endpoint to monitor pipeline failures.
 
-**Open Source Contributor (Intern)**, Amazon OpenSearch Contributor Initiative · Mar – Aug 2023 · remote
-5 merged pull requests to OpenSearch (Java): bug fixes and tests, through code review with maintainers.
+**Software Engineering Intern (Java)**, Amazon OpenSearch College Contributor Initiative · Mar – Aug 2023 · remote
+Selected for a pilot program run by Amazon and Kazakhstan's Ministry of Science and Higher Education (100+ top students); 5 pull requests merged into [OpenSearch](https://github.com/opensearch-project/OpenSearch) (Java) under the mentorship of Amazon engineers.
 
 ## Skills
 
